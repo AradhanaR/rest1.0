@@ -19,5 +19,14 @@ module.exports = {
 
   }
 
+  /**
+   * Login action
+   * @param {*} req 
+   * @param {*} res 
+   */
+  login: function (req, res) {
+    sails.log.debug('TODO: implement');
+    return res.ok();
+  }
 };
 
