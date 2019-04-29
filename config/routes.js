@@ -33,5 +33,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'api/v1/signup': 'UserController:signup'
+  'api/v1/signup': 'UserController/signup',
+  'api/v1/login': 'UserController/login'
+
 };
